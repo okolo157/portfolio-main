@@ -1,6 +1,5 @@
 {
   "name": "portfolio",
-  "homepage": "https://github.com/vik1234-del/portfolio-main",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,9 +26,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --repo https://github.com/vik1234-del/portfolio-main.git"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
