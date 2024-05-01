@@ -23,6 +23,8 @@ const Home = () => {
     'o',
   ]
   const jobArray = [
+    '-',
+    ' ',
     'w',
     'e',
     'b',
@@ -61,7 +63,7 @@ const Home = () => {
               strArray={nameArray}
               idx={15}
             />{' '}
-            <br />{' '}
+            <br />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
