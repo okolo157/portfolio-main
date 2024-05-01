@@ -1,0 +1,20 @@
+.image-container {
+  position: absolute;
+  top: 50%;
+  right: 220px;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 300px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 100%; /* Ensure the image takes up the entire container */
+  height: 100%; /* Ensure the image takes up the entire container */
+  object-fit: cover;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 4s ease-in-out;
+}
