@@ -3,10 +3,17 @@ import './index.scss'
 import LogoS from '../../assets/images/vologo.jpg'
 // import LogoSub from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import {
+  faEnvelope,
+  faHome,
+  faUser,
+  faX,
+} from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
   faLinkedin,
+  faTwitter,
+  faXTwitter,
   faYoutube,
 } from '@fortawesome/free-brands-svg-icons'
 
@@ -65,9 +72,9 @@ const Sidebar = () => (
         </a>
       </li>
       <li>
-        <a href="https://www.youtube.com/" rel="noreferrer" target="_blank">
+        <a href="https://twitter.com/vic_szn" rel="noreferrer" target="_blank">
           <FontAwesomeIcon
-            icon={faYoutube}
+            icon={faXTwitter}
             color="#4d4d4e"
             className="anchor-icon"
           />

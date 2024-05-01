@@ -18,6 +18,11 @@ $primary-color: #ffd700;
   src: url('../src/assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'Robot Roc';
+  src: url('../src/assets/fonts/RobotRoc.otf') format('otf');
+}
+
 input,
 textarea {
   font-family: 'Helvetica Neue';
