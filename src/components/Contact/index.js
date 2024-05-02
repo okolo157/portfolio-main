@@ -97,7 +97,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Victor Okolo,
+          Victor Okolooooo,
           <br />
           Nigeria,
           <br />
