@@ -50,7 +50,7 @@ const Contact = () => {
               idx={15}
             />
           </h1>
-          <p>
+          <p style={{ fontFamily: 'Coolvetica', fontWeight: 'lighter' }}>
             I am interested in freelance opportunities - especially on ambitious
             or large projects. However, if you have any other requests or
             questions, don't hesitate to contact me using below form either.
@@ -97,11 +97,11 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Victor Okolo,
+          Victor Okolo
           <br />
-          Nigeria,
+          Lagos State,
           <br />
-          Lagos state <br />
+          Nigeria. <br />
           <br />
           <span style={{ color: '#ffd700' }}>okolodubem9@gmail.com</span>
         </div>
@@ -123,6 +123,7 @@ const Contact = () => {
           </MapContainer>
         </div>
       </div>
+
       <Loader type="pacman" />
     </>
   )

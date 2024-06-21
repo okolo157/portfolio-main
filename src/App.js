@@ -5,6 +5,8 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import Layout from './components/Layouts'
+import Portfolio from './components/Portfolio'
+// import Player from './components/player'
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
         </Route>
       </Routes>
     </>

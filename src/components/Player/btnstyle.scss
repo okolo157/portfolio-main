@@ -1,0 +1,25 @@
+.bubble-btn {
+  background-color: #008cba;
+  color: white;
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.bubble-btn:hover {
+  animation: bubble 0.4s ease-out;
+}
+
+@keyframes bubble {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

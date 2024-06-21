@@ -4,6 +4,12 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import Image from './Pic'
 import Loader from 'react-loaders'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faLinkedin,
+  faGithub,
+  faSquareXTwitter,
+} from '@fortawesome/free-brands-svg-icons'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -21,22 +27,6 @@ const Home = () => {
     'o',
     'l',
     'o',
-  ]
-  const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
   ]
 
   useEffect(() => {
@@ -60,18 +50,48 @@ const Home = () => {
               letterClass={letterClass}
               strArray={nameArray}
               idx={15}
-            />{' '}
-            <br />
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={jobArray}
-              idx={22}
             />
+            <br />
           </h1>
-          <h2>Frontend Developer | Video Editor | Entrepreneur </h2>
+          <h2>Frontend Developer | Video Editor | Entrepreneur</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
+          <div className="social-icons">
+            <a
+              href="https://www.linkedin.com/in/victor-okolo-b76203226/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                size="2x"
+                className="social-icon"
+              />
+            </a>
+            <a
+              href="https://twitter.com/vic_szn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faSquareXTwitter}
+                size="2x"
+                className="social-icon"
+              />
+            </a>
+            <a
+              href="https://github.com/vik1234-del"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faGithub}
+                size="2x"
+                className="social-icon"
+              />
+            </a>
+          </div>
         </div>
         <Image />
       </div>

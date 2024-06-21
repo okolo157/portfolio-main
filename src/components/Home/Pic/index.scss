@@ -16,5 +16,11 @@
 
 .fade-in {
   opacity: 1;
-  transition: opacity 4s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 1200px) {
+  .image-container {
+    opacity: 0;
+  }
 }

@@ -80,6 +80,12 @@
   }
 }
 
+@media screen and (min-width: 769px) {
+  .social-icons {
+    display: none; // Hide social icons on desktop and larger screens
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .tags,
   .home-page h1:before,
@@ -93,6 +99,8 @@
     transform: none;
     padding: 10px;
     box-sizing: border-box;
+    // margin-top: 10vh; // Pushed content lower
+    text-align: center; // Centered text
   }
 
   .home-page .flat-button {
@@ -120,5 +128,75 @@
     bottom: auto;
     left: 0;
     margin: auto;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    .social-icon {
+      margin: 0 10px;
+      color: #4d4d4e; // Adjust color as needed
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #ffd700; // Adjust hover color as needed
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-page .text-zone {
+    width: 90%;
+    margin-top: 25vh; // Pushed content lower
+    text-align: center; // Centered text
+  }
+
+  .home-page h1 {
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 20px; // Added bottom margin for spacing
+  }
+
+  .home-page h2 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 15px 0; // Added margin for spacing
+  }
+
+  .home-page .flat-button {
+    font-size: 11px;
+    padding: 6px 14px;
+    width: 120px; // Auto width
+    margin-top: 40px; // Added bottom margin for spacing
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home-page .text-zone {
+    width: 100%;
+    margin-top: 30vh; // Pushed content lower
+    text-align: center; // Centered text
+  }
+
+  .home-page h1 {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 20px; // Added bottom margin for spacing
+  }
+
+  .home-page h2 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 15px 0; // Added margin for spacing
+  }
+
+  .home-page .flat-button {
+    font-size: 11px;
+    padding: 6px 14px;
+    width: 120px; // Auto width
+    margin-top: 40px; // Added bottom margin for spacing
   }
 }

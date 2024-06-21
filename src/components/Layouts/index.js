@@ -1,22 +1,27 @@
 import { Outlet } from 'react-router-dom'
 import Sidebar from '../sidebar'
 import './index.scss'
+import Player from '../Player/player.js'
 
 const Layout = () => {
   return (
-    <div className="App">
-      <Sidebar />
-      <div className="page">
-        <span className="tags top-tags">&lt;body&gt;</span>
+    <>
+      <div className="App">
+        <Sidebar />
 
-        <Outlet />
-        <span className="tags bottom-tags">
-          &lt;/body&gt;
-          <br />
-          <span className="bottom-tag-html">&lt;/html&gt;</span>
-        </span>
+        <div className="page">
+          <span className="tags top-tags">&lt;body&gt;</span>
+          <Player />
+
+          <Outlet />
+          <span className="tags bottom-tags">
+            &lt;/body&gt;
+            <br />
+            <span className="bottom-tag-html">&lt;/html&gt;</span>
+          </span>
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 

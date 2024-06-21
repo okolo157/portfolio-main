@@ -4,11 +4,22 @@ html {
 
 body {
   margin: 0;
-  font: 300 11px/1.4 'Helvetica Neue';
+  font: 300 11px/1.4 'Helvetica Neue', sans-serif;
   color: #444;
-  background: #022c43;
+  background: #060606;
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.dashboard {
+  margin-top: 200px;
+  margin-left: 2000px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    overflow: visible;
+  }
 }

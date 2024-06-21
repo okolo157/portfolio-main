@@ -1,0 +1,67 @@
+{
+  "portfolio": [
+    {
+      "cover": "https://i.ibb.co/SwnYwN2/96227650.png",
+      "title": "GAWC Website",
+      "description": "HTML, JS, CSS, StyledComponents, Tachyons",
+      "url": "https://goldenacewelfareclub.com/"
+    },
+    {
+      "cover": "https://i.ibb.co/t4Tdj6L/96226713-1.png",
+      "title": "Nzimi Clean",
+      "description": "HTML, JS, CSS",
+      "url": "https://nzimiclean.de"
+    },
+    {
+      "cover": "https://i.ibb.co/QNGhkGJ/96226799.png",
+      "title": "Sign-up form (web)",
+      "description": "HTML, JS, CSS",
+      "url": "https://capable-caramel-5bfcf9.netlify.app/"
+    },
+    {
+      "cover": "https://i.ibb.co/MDHwkMf/96227135.png",
+      "title": "Color Changer",
+      "description": "HTML, JS, CSS",
+      "url": "https://teal-brioche-952514.netlify.app/"
+    },
+    {
+      "cover": "https://i.ibb.co/6mySXm3/96227173.png",
+      "title": "Robo Friends",
+      "description": "ReactJS, StyledComponents",
+      "url": "https://majestic-sundae-e50142.netlify.app/"
+    },
+    {
+      "cover": "https://i.ibb.co/cDRsZKM/96227278.png",
+      "title": "Cart Checkout Form",
+      "description": "HTML, JS, CSS",
+      "url": "https://remarkable-bonbon-da3e2c.netlify.app/"
+    },
+    {
+      "cover": "https://i.ibb.co/gdKvq9B/96227368.png",
+      "title": "Counter",
+      "description": "HTML, JS, CSS",
+      "url": "https://celebrated-malasada-77ac6f.netlify.app/"
+    },
+    {
+      "cover": "https://i.ibb.co/VqZHhvn/96227443.png",
+      "title": "About-Me Page",
+      "description": "HTML, JS, CSS",
+      "url": "https://unrivaled-toffee-952902.netlify.app/"
+    },
+    {
+      "cover": "https://i.ibb.co/tYx3pk2/96227452.png",
+      "title": "News Scraping Page",
+      "description": "HTML, JS, CSS, StyledComponents, Tachyons, NewsAPI",
+      "url": "https://main--headlinenews2024.netlify.app/"
+    }
+  ],
+
+  "video": [
+    {
+      "cover": "https://api.screenshotone.com/take?access_key=sXkM6fN8p1Y77Q&url=https%3A%2F%2Fnzimiclean.de&full_page=false&viewport_width=1920&viewport_height=1080&device_scale_factor=1&format=jpg&image_quality=80&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60",
+      "title": "Nzimi Clean",
+      "description": "HTML, JS, CSS",
+      "url": "https:nzimiclean.de"
+    }
+  ]
+}
