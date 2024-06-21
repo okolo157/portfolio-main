@@ -38,7 +38,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="container home-page">
+      <div className="container home-page" style={{ marginTop: '-25px' }}>
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>
