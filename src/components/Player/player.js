@@ -27,30 +27,29 @@ function Player() {
 
   return (
     <>
-      {location.pathname !== '/contact' && (
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: 'column', // Arrange items vertically
-            // justifyContent: 'space-between',
-            alignItems: 'center',
-            marginTop: '10px',
-            marginBottom: '9px',
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column', // Arrange items vertically
+          // justifyContent: 'space-between',
+          alignItems: 'center',
+          marginTop: '10px',
+          marginBottom: '9px',
 
-            // Add margin to the right
-          }}
-        >
-          <div style={{}}>
-            <button className="bubble-btn" onClick={togglePlay}>
-              <FontAwesomeIcon
-                icon={isPlaying ? faVolumeOff : faVolumeHigh}
-                size="2x"
-                style={{ color: '#ffd700' }} // Set color to #ffd700
-              />
-            </button>
-          </div>
+          // Add margin to the right
+        }}
+      >
+        <div style={{}}>
+          <button className="bubble-btn" onClick={togglePlay}>
+            <FontAwesomeIcon
+              icon={isPlaying ? faVolumeOff : faVolumeHigh}
+              size="2x"
+              style={{ color: '#ffd700' }} // Set color to #ffd700
+            />
+          </button>
         </div>
-      )}
+      </div>
+
       <audio ref={audioRef} src={onlineAudioUrl} autoPlay={false} />
     </>
   )
