@@ -36,10 +36,8 @@ const Text = () => {
   // Styles specific to desktop view
   const desktopStyles = {
     ...baseStyles,
-    bottom: '90px',
-    left: '110px',
-    width: '80%', // Default width for mobile
-    top: '440px', // Adjusted top position for desktop
+    top: '20px', // Adjusted top position for desktop
+    right: '20px', // Adjusted right position for desktop
   }
 
   // Styles specific to mobile view
@@ -47,13 +45,13 @@ const Text = () => {
     ...baseStyles,
     width: 'auto', // Adjusted width for mobile
     maxWidth: '90%', // Optional: Set a maximum width for mobile
-    top: '20px', // Adjusted top position for mobile
-    left: '45%', // Center horizontally on mobile
+    top: '10px', // Adjusted top position for mobile
+    left: '48%', // Center horizontally on mobile
     transform: 'translateX(-50%)', // Center horizontally on mobile
   }
 
   return (
-    <div style={{ position: 'relative' }}>
+    <div style={{ position: 'relative', minHeight: '100vh' }}>
       <div style={{ paddingBottom: '50px' }}>
         {/* Other content of your page */}
       </div>
