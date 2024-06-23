@@ -10,6 +10,7 @@ import {
   faGithub,
   faSquareXTwitter,
 } from '@fortawesome/free-brands-svg-icons'
+import Text from '../Text'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -51,12 +52,12 @@ const Home = () => {
               strArray={nameArray}
               idx={15}
             />
-            <br />
           </h1>
           <h2>Frontend Developer | Video Editor | Entrepreneur</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
+
           <div className="social-icons">
             <a
               href="https://www.linkedin.com/in/victor-okolo-b76203226/"
@@ -93,6 +94,9 @@ const Home = () => {
             </a>
           </div>
         </div>
+
+        <Text />
+
         <Image />
       </div>
       <Loader type="pacman" />
