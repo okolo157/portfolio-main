@@ -44,7 +44,7 @@ function Player() {
             <FontAwesomeIcon
               icon={isPlaying ? faVolumeOff : faVolumeHigh}
               size="2x"
-              style={{ color: '#ffd700' }} // Set color to #ffd700
+              style={{ color: '#ffd700' }} 
             />
           </button>
         </div>
