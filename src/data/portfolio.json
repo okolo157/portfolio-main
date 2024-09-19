@@ -1,7 +1,7 @@
 {
   "portfolio": [
     {
-      "cover": "https://ibb.co/gmZNdWQ",
+      "cover": "https://i.ibb.co/8rS3cxV/scissor.jpg",
       "title": "Scissor",
       "description": "Vite+TS, NodeJS, MongoDB",
       "url": "https://scissor-app-03ep.onrender.com/"
