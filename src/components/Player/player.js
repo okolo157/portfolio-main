@@ -1,4 +1,3 @@
-import { useLocation } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faVolumeOff, faVolumeHigh } from '@fortawesome/free-solid-svg-icons'
 import { useState, useRef } from 'react'
