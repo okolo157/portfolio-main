@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import image from '../../../assets/images/unnamed.jpg'
-import './index.scss' // Import your SCSS file for styling
+import image from '../../../assets/images/victor.jpg'
+import './index.scss'
 
 const Image = () => {
   const [isVisible, setIsVisible] = useState(false)
