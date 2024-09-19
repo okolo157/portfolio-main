@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import image from '../../../assets/images/victor.jpg'
+import image from '../../../assets/images/victor.png'
 import './index.scss'
 
 const Image = () => {
