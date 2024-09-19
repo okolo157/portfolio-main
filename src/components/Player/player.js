@@ -8,8 +8,7 @@ function Player() {
   const [isPlaying, setIsPlaying] = useState(true)
 
   const audioRef = useRef(null) // Reference to the audio element
-  const location = useLocation()
-
+ 
   const onlineAudioUrl = 'http://streaming.tdiradio.com:8000/house.mp3'
 
   const togglePlay = () => {
