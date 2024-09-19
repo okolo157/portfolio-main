@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import image from '../../../assets/images/new.jpg'
+import image from '../../../assets/images/unnamed.jpg'
 import './index.scss' // Import your SCSS file for styling
 
 const Image = () => {

@@ -1,4 +1,3 @@
-import { useLocation } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faVolumeOff, faVolumeHigh } from '@fortawesome/free-solid-svg-icons'
 import { useState, useRef } from 'react'
@@ -8,7 +7,7 @@ function Player() {
   const [isPlaying, setIsPlaying] = useState(true)
 
   const audioRef = useRef(null) // Reference to the audio element
-  const location = useLocation()
+ 
 
   const onlineAudioUrl = 'http://streaming.tdiradio.com:8000/house.mp3'
 
