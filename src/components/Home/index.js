@@ -54,6 +54,7 @@ const Home = () => {
             />
           </h1>
           <h2>Full-Stack Developer | Video Editor | Entrepreneur</h2>
+                <h3> Touch the letters to see some magic <h3>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
