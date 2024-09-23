@@ -72,10 +72,12 @@ const About = () => {
             </div>
           </div>
         </div>
+              
+      </div>
+
               <div><p classname="about-text">
                 test test test test
               </p></div>
-      </div>
       <Loader type="pacman" />
     </>
   )
