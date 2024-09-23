@@ -71,13 +71,8 @@ const About = () => {
               <FontAwesomeIcon icon={faGit} color="#EC4D28" />
             </div>
           </div>
-        </div>
-              
+        </div>  
       </div>
-
-              <div><p classname="about-text">
-                test test test test
-              </p></div>
       <Loader type="pacman" />
     </>
   )
