@@ -50,11 +50,11 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
-              idx={15}
+              idx={12}
             />
           </h1>
           <h2>Full-Stack Developer | Video Editor | Entrepreneur</h2>
-                <h3> Touch the letters to see some magic </h3>
+                <h4> [Touch the letters to see some magic] </h4>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
