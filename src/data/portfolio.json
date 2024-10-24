@@ -1,6 +1,12 @@
 {
   "portfolio": [
     {
+      "cover": "https://i.ibb.co/1GrxJnv/ominous-rotary-phone-j9j7qwpj5xgcq7g6-19006-app-github-dev.png",
+      "title": "Food Court",
+      "description": "RN, Firebase",
+      "url": "https://github.com/vik1234-del/PAU-food-project"
+    },
+    {
       "cover": "https://i.ibb.co/8rS3cxV/scissor.jpg",
       "title": "Scissor",
       "description": "Vite+TS, NodeJS, MongoDB",
