@@ -1,3 +1,7 @@
+$primary-color: #ffd700;
+$font-family-primary: 'Coolvetica';
+$font-family-secondary: 'La Belle Aurore', cursive;
+
 .stage-cube-cont {
   width: 50%;
   height: 100%;
@@ -77,5 +81,100 @@
   }
   83% {
     transform: rotateX(90deg);
+  }
+}
+
+#tech-carousel {
+  text-align: center;
+  padding: 50px 20px;
+  color: white;
+  margin-top: -30px;
+}
+
+.carousel {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 20px;
+  box-shadow: 0 0 70px 10px #141414;
+}
+
+.tech-item {
+  flex: 0 0 auto;
+  width: 150px;
+  background: #1c1c1c;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.tech-item img {
+  max-width: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.tech-item p {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.carousel::-webkit-scrollbar {
+  height: 8px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 4px;
+}
+
+.h2-style {
+  font-size: 33px;
+  font-family: $font-family-primary;
+  color: $primary-color;
+  font-weight: 400;
+  margin-top: 0;
+  position: relative;
+  left: -190px;
+}
+
+@media screen and (max-width: 1200px) {
+  .h2-style {
+    font-size: 28px;
+    left: 90px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .h2-style {
+    font-size: 28px;
+    left: -90px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .h2-style {
+    left: -140px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .h2-style {
+    left: -100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .h2-style {
+    left: -90px;
   }
 }
