@@ -140,7 +140,7 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p style={{ fontSize: '17px' }} className="about-text">
+          <p className="about-text">
             I'm a dedicated full-stack web and mobile developer. I have worked
             with induustry standard technologies to develop responsive web
             applications, optimize performance, and implement best practices in
