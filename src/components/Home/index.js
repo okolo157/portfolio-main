@@ -1,8 +1,14 @@
-import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
+import {
+  faCss3,
+  faGit,
+  faHtml5,
+  faJsSquare,
+  faNodeJs,
+  faReact,
+} from '@fortawesome/free-brands-svg-icons'
 import './index.scss'
-import Image from './Pic'
 import Loader from 'react-loaders'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -10,7 +16,6 @@ import {
   faGithub,
   faSquareXTwitter,
 } from '@fortawesome/free-brands-svg-icons'
-import Text from '../Text'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -39,7 +44,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="container home-page" style={{ marginTop: '-25px' }}>
+      <div className="home-page">
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>
@@ -54,9 +59,6 @@ const Home = () => {
             />
           </h1>
           <h2>Full-Stack Developer | Video Editor | Entrepreneur</h2>
-          <Link to="/contact" className="flat-button">
-            CONTACT ME
-          </Link>
 
           <div className="social-icons">
             <a
@@ -64,11 +66,7 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                size="2x"
-                className="social-icon"
-              />
+              <FontAwesomeIcon icon={faLinkedin} className="social-icon" />
             </a>
             <a
               href="https://twitter.com/vic_szn"
@@ -77,7 +75,6 @@ const Home = () => {
             >
               <FontAwesomeIcon
                 icon={faSquareXTwitter}
-                size="2x"
                 className="social-icon"
               />
             </a>
@@ -86,19 +83,34 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon
-                icon={faGithub}
-                size="2x"
-                className="social-icon"
-              />
+              <FontAwesomeIcon icon={faGithub} className="social-icon" />
             </a>
           </div>
         </div>
-
-        <Text />
-
-        <Image />
+        <div className="stage-cube-cont">
+          <div style={{ marginTop: '-20px' }} className="cubespinner">
+            <div className="face1">
+              <FontAwesomeIcon icon={faNodeJs} color="#68A063" />
+            </div>
+            <div className="face2">
+              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+            </div>
+            <div className="face3">
+              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+            </div>
+            <div className="face4">
+              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+            </div>
+            <div className="face5">
+              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+            </div>
+            <div className="face6">
+              <FontAwesomeIcon icon={faGit} color="#EC4D28" />
+            </div>
+          </div>
+        </div>
       </div>
+
       <Loader type="pacman" />
     </>
   )

@@ -1,4 +1,20 @@
 .home-page {
+  .social-icons {
+    display: flex;
+    margin-top: 30px;
+    margin-left: -10px;
+
+    .social-icon {
+      margin: 0 10px;
+      color: #ffd700; // Adjust color as needed
+      transition: color 0.3s ease;
+      font-size: 3rem;
+
+      &:hover {
+        color: #333;
+      }
+    }
+  }
   .text-zone {
     position: absolute;
     left: 10%;
@@ -58,35 +74,18 @@
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
   }
-
-  .flat-button {
-    color: #ffd700;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 4px;
-    font-family: sans-serif;
-    text-decoration: none;
-    padding: 10px 18px;
-    border: 1px solid #ffd700;
-    margin-top: 40px;
-    float: left;
-    animation: fadeInAnimation 1s 1.8s backwards;
-    white-space: nowrap;
-
-    &:hover {
-      background: #ffd700;
-      color: #333;
-    }
-  }
 }
 
 @media screen and (min-width: 769px) {
-  .social-icons {
-    display: none; // Hide social icons on desktop and larger screens
-  }
+  // .social-icons {
+  //   display: none; // Hide social icons on desktop and larger screens
+  // }
 }
 
 @media screen and (max-width: 1200px) {
+  .social-icons {
+    justify-content: center;
+  }
   .tags,
   .home-page h1:before,
   .home-page h1:after {
@@ -96,11 +95,12 @@
   .home-page .text-zone {
     position: initial;
     width: 100%;
+
     transform: none;
     padding: 10px;
     box-sizing: border-box;
 
-    text-align: center; // Centered text
+    text-align: center;
   }
 
   .home-page .flat-button {
@@ -128,22 +128,6 @@
     bottom: auto;
     left: 0;
     margin: auto;
-  }
-
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-
-    .social-icon {
-      margin: 0 10px;
-      color: #4d4d4e; // Adjust color as needed
-      transition: color 0.3s ease;
-
-      &:hover {
-        color: #ffd700; // Adjust hover color as needed
-      }
-    }
   }
 }
 

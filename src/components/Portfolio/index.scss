@@ -1,9 +1,9 @@
 .portfolio-page {
-  margin-top: 40px;
+  // margin-top: 40px;
 
   padding-left: 100px;
   padding-right: 50px;
-  width: calc(100% - 150px);
+  width: auto;
   position: initial;
   height: 100%;
   overflow: scroll;
@@ -11,7 +11,7 @@
   .port-title,
   .video-title {
     margin-left: 100px;
-    margin-top: 40px; // Adjusted to a consistent margin for both titles
+    margin-top: 40px;
   }
 
   .images-container {

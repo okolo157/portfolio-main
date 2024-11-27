@@ -142,19 +142,12 @@ const About = () => {
           </h1>
           <p className="about-text">
             I'm a dedicated full-stack web and mobile developer. I have worked
-            with induustry standard technologies to develop responsive web
-            applications, optimize performance, and implement best practices in
-            software development.
+            with industry standard technologies to develop responsive web
+            applications. <br />
+            Below are the technologies I am familiar with:
           </p>
-          <section id="tech-carousel">
-            <h2 className="h2-style">
-              <AnimatedLetters
-                letterClass={letterClass}
-                strArray={['T', 'e', 'c', 'h', '-', 's', 't', 'a', 'c', 'k']}
-                idx={15}
-              />
-            </h2>
 
+          <section id="tech-carousel">
             <div className="carousel">
               {technologies.map((tech, index) => (
                 <div className="tech-item" key={index}>
@@ -165,7 +158,6 @@ const About = () => {
             </div>
           </section>
         </div>
-
         <div className="stage-cube-cont">
           <div style={{ marginTop: '-20px' }} className="cubespinner">
             <div className="face1">
