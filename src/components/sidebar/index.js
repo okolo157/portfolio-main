@@ -1,6 +1,5 @@
 import './index.scss'
 import { useState } from 'react'
-import LogoS from '../../assets/images/vologo.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faHome,
