@@ -1,4 +1,4 @@
-// import logo from './logo.svg'
+
 import './App.scss'
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
@@ -6,7 +6,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Layout from './components/Layouts'
 import Portfolio from './components/Portfolio'
-// import Player from './components/player'
+
 
 function App() {
   return (
