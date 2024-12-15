@@ -8,16 +8,14 @@ import {
   faJsSquare,
   faNodeJs,
   faReact,
+  faLinkedin,
+  faGithub,
+  faSquareXTwitter,
+  faWhatsapp,
 } from '@fortawesome/free-brands-svg-icons'
 
 import Loader from 'react-loaders'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faLinkedin,
-  faGithub,
-  faSquareXTwitter,
-} from '@fortawesome/free-brands-svg-icons'
-
 
 import './index.scss'
 
@@ -48,7 +46,7 @@ const Home = () => {
 
     const contentTimeout = setTimeout(() => {
       setShowContent(true)
-    }, 4000) 
+    }, 4000)
 
     return () => {
       clearTimeout(letterAnimationTimeout)
@@ -99,6 +97,13 @@ const Home = () => {
                   rel="noopener noreferrer"
                 >
                   <FontAwesomeIcon icon={faGithub} className="social-icon" />
+                </a>
+                <a
+                  href="https://wa.me/2349110591628"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon icon={faWhatsapp} className="social-icon" />
                 </a>
               </div>
             </>
