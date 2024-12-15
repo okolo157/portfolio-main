@@ -137,7 +137,7 @@ const Home = () => {
         )}
       </div>
 
-      <Loader type="pacman" />
+      <Loader type="line-scale-party" />
     </>
   )
 }
