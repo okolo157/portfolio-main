@@ -2,73 +2,73 @@
   "portfolio": [
     {
       "cover": "https://i.ibb.co/1GrxJnv/ominous-rotary-phone-j9j7qwpj5xgcq7g6-19006-app-github-dev.png",
-      "title": "Food Court",
+      "title": "Food Court (Mobile)",
       "description": "React Native, Firebase",
       "url": "https://github.com/vik1234-del/PAU-food-project"
     },
     {
       "cover": "https://i.ibb.co/Jygj0Cm/image-2024-11-24-100012600.png",
-      "title": "Byte Information Systems",
+      "title": "Byte Information Systems (Web)",
       "description": "Wordpress, Elementor",
       "url": "https://bytesinformationsystem.com/"
     },
     {
       "cover": "https://i.ibb.co/8rS3cxV/scissor.jpg",
-      "title": "Scissor",
+      "title": "Scissor (web)",
       "description": "Vite+TS, NodeJS, MongoDB (Atlas)",
       "url": "https://scissor-app-03ep.onrender.com/"
     },
     {
       "cover": "https://i.ibb.co/SwnYwN2/96227650.png",
-      "title": "GAWC",
+      "title": "GAWC (Web)",
       "description": "HTML, JS, CSS, Tachyons",
       "url": "https://goldenacewelfareclub.com/"
     },
     {
       "cover": "https://i.ibb.co/9NxMr0t/image-2024-08-14-183217124.png",
-      "title": "Nzimi Clean",
+      "title": "Nzimi Clean (Web)",
       "description": "HTML, JS, CSS",
       "url": "https://nzimiclean.de"
     },
     {
       "cover": "https://i.ibb.co/tYx3pk2/96227452.png",
-      "title": "Headline news",
+      "title": "Headline news (Web)",
       "description": "HTML, JS, CSS, Tachyons",
       "url": "https://main--headlinenews2024.netlify.app/"
     },
-    {
-      "cover": "https://i.ibb.co/QNGhkGJ/96226799.png",
-      "title": "Sign-up form (web)",
-      "description": "HTML, JS, CSS",
-      "url": "https://capable-caramel-5bfcf9.netlify.app/"
-    },
+    //{
+     // "cover": "https://i.ibb.co/QNGhkGJ/96226799.png",
+    //  "title": "Sign-up form (eb)",
+     // "description": "HTML, JS, CSS",
+     // "url": "https://capable-caramel-5bfcf9.netlify.app/"
+    //},
     {
       "cover": "https://i.ibb.co/8rLpPSV/image-2024-08-14-183609990.png",
-      "title": "Color Changer",
+      "title": "Color Changer (web)",
       "description": "HTML, JS, CSS",
       "url": "https://teal-brioche-952514.netlify.app/"
     },
     {
       "cover": "https://i.ibb.co/6mySXm3/96227173.png",
-      "title": "Robo Friends",
+      "title": "Robo Friends (web)",
       "description": "ReactJS, StyledComponents",
       "url": "https://majestic-sundae-e50142.netlify.app/"
     },
     {
       "cover": "https://i.ibb.co/cDRsZKM/96227278.png",
-      "title": "Cart Checkout Form",
+      "title": "Cart Checkout Form (Web)",
       "description": "HTML, JS, CSS",
       "url": "https://remarkable-bonbon-da3e2c.netlify.app/"
     },
     {
       "cover": "https://i.ibb.co/gdKvq9B/96227368.png",
-      "title": "Counter",
+      "title": "Counter (Web)",
       "description": "HTML, JS, CSS",
       "url": "https://celebrated-malasada-77ac6f.netlify.app/"
     },
     {
       "cover": "https://i.ibb.co/VqZHhvn/96227443.png",
-      "title": "About-Me Page",
+      "title": "Mini portfolio (web)",
       "description": "HTML, JS, CSS",
       "url": "https://unrivaled-toffee-952902.netlify.app/"
     }
