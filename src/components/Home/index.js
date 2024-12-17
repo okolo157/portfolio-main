@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
 
 import {
@@ -17,7 +18,6 @@ import {
   faGithub,
   faSquareXTwitter,
 } from '@fortawesome/free-brands-svg-icons'
-
 
 import './index.scss'
 
@@ -48,13 +48,16 @@ const Home = () => {
 
     const contentTimeout = setTimeout(() => {
       setShowContent(true)
-    }, 4000) 
+    }, 3000)
 
     return () => {
       clearTimeout(letterAnimationTimeout)
       clearTimeout(contentTimeout)
     }
   }, [])
+
+  let resume = '<Resume />'
+  let portfolio = '<Portfolio />'
 
   return (
     <>
@@ -100,6 +103,22 @@ const Home = () => {
                 >
                   <FontAwesomeIcon icon={faGithub} className="social-icon" />
                 </a>
+              </div>
+              <div className="btn-container">
+                <div className="cv-btn">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://flowcv.com/resume/ilbnbmi60q"
+                  >
+                    <button className="btn">{resume}</button>
+                  </a>
+                </div>
+                <div className="cv-btn">
+                  <Link to="/portfolio">
+                    <button className="btn">{portfolio}</button>
+                  </Link>
+                </div>
               </div>
             </>
           )}

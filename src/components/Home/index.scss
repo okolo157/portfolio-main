@@ -25,7 +25,7 @@
   }
 
   h1 {
-    color: #fff;
+    color: #ffd700;
     font-size: 56px;
     line-height: 53px;
     margin: 0;
@@ -74,12 +74,29 @@
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
   }
-}
+  .btn-container {
+    display: flex;
+  }
 
-@media screen and (min-width: 769px) {
-  // .social-icons {
-  //   display: none; // Hide social icons on desktop and larger screens
-  // }
+  .cv-btn {
+    height: 40px;
+    margin-top: 33px;
+  }
+
+  .btn {
+    background-color: #ffd700;
+    height: 100%;
+    margin-right: 20px;
+    font-size: 17px;
+    width: 120px;
+    font-family: Coolvetica;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #333;
+    }
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -129,13 +146,19 @@
     left: 0;
     margin: auto;
   }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .home-page .text-zone {
-    width: 90%;
-    margin-top: 25vh; // Pushed content lower
-    text-align: center; // Centered text
+    width: 100%;
+    margin-top: 25vh;
+    text-align: center;
   }
 
   .home-page h1 {
@@ -155,6 +178,12 @@
     padding: 6px 14px;
     width: 120px; // Auto width
     margin-top: 40px; // Added bottom margin for spacing
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -182,5 +211,11 @@
     padding: 6px 14px;
     width: 120px; // Auto width
     margin-top: 40px; // Added bottom margin for spacing
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
