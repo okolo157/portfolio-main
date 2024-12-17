@@ -92,11 +92,17 @@
     font-family: Coolvetica;
     border: none;
     cursor: pointer;
-    text-decoration: none;
+
 
     &:hover {
       background-color: #333;
     }
+    
+    Link {
+    text-decoration: none;
+}
+
+
   }
 
   .fade-in {
