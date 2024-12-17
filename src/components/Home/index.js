@@ -124,7 +124,7 @@ const Home = () => {
                   </a>
                 </div>
                 <div className="cv-btn">
-                  <Link to="/portfolio">
+                  <Link className="link" to="/portfolio">
                     <button className="btn">{portfolio}</button>
                   </Link>
                 </div>
