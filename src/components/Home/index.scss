@@ -80,7 +80,7 @@
 
   .cv-btn {
     height: 40px;
-    margin-top: 33px;
+    margin-top: 43px;
   }
 
   .btn {
@@ -95,6 +95,17 @@
 
     &:hover {
       background-color: #333;
+    }
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
     }
   }
 }

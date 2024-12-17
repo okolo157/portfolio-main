@@ -48,7 +48,6 @@ const Home = () => {
     const contentTimeout = setTimeout(() => {
       setShowContent(true)
     }, 3000)
-    }, 4000)
 
     return () => {
       clearTimeout(letterAnimationTimeout)
@@ -75,10 +74,13 @@ const Home = () => {
               idx={12}
             />
           </h1>
-          <h2>Full-Stack Developer | Video Editor | Entrepreneur</h2>
+
           {showContent && (
             <>
-              <div className="social-icons">
+              <h2 className="fade-in">
+                Full-Stack Developer | Video Editor | Entrepreneur
+              </h2>
+              <div className="social-icons fade-in">
                 <a
                   href="https://www.linkedin.com/in/victor-okolo-b76203226/"
                   target="_blank"
@@ -111,7 +113,7 @@ const Home = () => {
                   <FontAwesomeIcon icon={faWhatsapp} className="social-icon" />
                 </a>
               </div>
-              <div className="btn-container">
+              <div className="btn-container fade-in">
                 <div className="cv-btn">
                   <a
                     target="_blank"
@@ -132,7 +134,7 @@ const Home = () => {
         </div>
         {showContent && (
           <>
-            <div className="stage-cube-cont">
+            <div className="stage-cube-cont fade-in">
               <div style={{ marginTop: '-20px' }} className="cubespinner">
                 <div className="face1">
                   <FontAwesomeIcon icon={faNodeJs} color="#68A063" />
@@ -158,7 +160,7 @@ const Home = () => {
         )}
       </div>
 
-      <Loader type="line-scale-party" />
+      <Loader type="pacman" />
     </>
   )
 }
