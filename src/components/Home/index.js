@@ -1,6 +1,6 @@
-import { useState, useEffect, lazy, Suspense } from 'react';
-import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useState, useEffect, lazy, Suspense } from 'react'
+import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faCss3,
   faGit,
@@ -12,15 +12,15 @@ import {
   faGithub,
   faSquareXTwitter,
   faWhatsapp,
-} from '@fortawesome/free-brands-svg-icons';
-import Loader from 'react-loaders';
+} from '@fortawesome/free-brands-svg-icons'
+import Loader from 'react-loaders'
 
-import './index.scss';
+import './index.scss'
 
-const AnimatedLetters = lazy(() => import('../AnimatedLetters'));
+const AnimatedLetters = lazy(() => import('../AnimatedLetters'))
 
-const LETTER_ANIMATION_DELAY = 4000;
-const CONTENT_DELAY = 3000;
+const LETTER_ANIMATION_DELAY = 4000
+const CONTENT_DELAY = 3000
 
 const socialLinks = [
   {
@@ -43,19 +43,7 @@ const socialLinks = [
     icon: faWhatsapp,
     label: 'WhatsApp',
   },
-];
-
-const Button = ({ isExternal, href, label, to }) => {
-  return isExternal ? (
-    <a target="_blank" rel="noreferrer" href={href} className="btn">
-      {label}
-    </a>
-  ) : (
-    <Link to={to} className="btn">
-      {label}
-    </Link>
-  );
-};
+]
 
 const SocialIcons = ({ links }) => (
   <div className="social-icons fade-in">
@@ -71,28 +59,28 @@ const SocialIcons = ({ links }) => (
       </a>
     ))}
   </div>
-);
+)
 
 const Home = () => {
-  const [letterClass, setLetterClass] = useState('text-animate');
-  const [showContent, setShowContent] = useState(false);
+  const [letterClass, setLetterClass] = useState('text-animate')
+  const [showContent, setShowContent] = useState(false)
 
-  const nameArray = ' Victor Okolo'.split('');
+  const nameArray = ' Victor Okolo'.split('')
 
   useEffect(() => {
     const letterAnimationTimeout = setTimeout(() => {
-      setLetterClass('text-animate-hover');
-    }, LETTER_ANIMATION_DELAY);
+      setLetterClass('text-animate-hover')
+    }, LETTER_ANIMATION_DELAY)
 
     const contentTimeout = setTimeout(() => {
-      setShowContent(true);
-    }, CONTENT_DELAY);
+      setShowContent(true)
+    }, CONTENT_DELAY)
 
     return () => {
-      clearTimeout(letterAnimationTimeout);
-      clearTimeout(contentTimeout);
-    };
-  }, []);
+      clearTimeout(letterAnimationTimeout)
+      clearTimeout(contentTimeout)
+    }
+  }, [])
 
   return (
     <>
@@ -121,14 +109,19 @@ const Home = () => {
               <SocialIcons links={socialLinks} />
               <div className="btn-container fade-in">
                 <div className="cv-btn">
-                  <Button
-                    isExternal={true}
+                  <a
+                    className="btn"
                     href="https://flowcv.com/resume/ilbnbmi60q"
-                    label="<Resume />"
-                  />
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Resume
+                  </a>
                 </div>
                 <div className="cv-btn">
-                  <Button isExternal={false} to="/portfolio" label="<Portfolio />" />
+                  <Link className="btn" to="/portfolio">
+                    Portfolio
+                  </Link>
                 </div>
               </div>
             </>
@@ -163,7 +156,7 @@ const Home = () => {
 
       {!showContent && <Loader type="pacman" />}
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
