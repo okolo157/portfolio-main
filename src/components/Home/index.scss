@@ -117,6 +117,16 @@
   }
 }
 
+.cv-btn a,
+.cv-btn .btn {
+  text-decoration: none; /* Remove underline or other text decoration */
+}
+
+.link {
+  text-decoration: none; /* Ensure links also have no text decoration */
+}
+
+
 @media screen and (max-width: 1200px) {
   .social-icons {
     justify-content: center;
