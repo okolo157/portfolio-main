@@ -6,7 +6,7 @@
 
     .social-icon {
       margin: 0 10px;
-      color: #ffd700; // Adjust color as needed
+      color: #ffd700; 
       transition: color 0.3s ease;
       font-size: 3rem;
 
@@ -182,20 +182,20 @@
   .home-page h1 {
     font-size: 36px;
     line-height: 40px;
-    margin-bottom: 20px; // Added bottom margin for spacing
+    margin-bottom: 20px;
   }
 
   .home-page h2 {
     font-size: 14px;
     letter-spacing: 2px;
-    margin: 15px 0; // Added margin for spacing
+    margin: 15px 0; 
   }
 
   .home-page .flat-button {
     font-size: 11px;
     padding: 6px 14px;
-    width: 120px; // Auto width
-    margin-top: 40px; // Added bottom margin for spacing
+    width: 120px; 
+    margin-top: 40px; 
   }
 
   .btn-container {
@@ -208,27 +208,27 @@
 @media screen and (max-width: 480px) {
   .home-page .text-zone {
     width: 100%;
-    margin-top: 30vh; // Pushed content lower
-    text-align: center; // Centered text
+    margin-top: 30vh; 
+    text-align: center; 
   }
 
   .home-page h1 {
     font-size: 28px;
     line-height: 32px;
-    margin-bottom: 20px; // Added bottom margin for spacing
+    margin-bottom: 20px; 
   }
 
   .home-page h2 {
     font-size: 12px;
     letter-spacing: 1px;
-    margin: 15px 0; // Added margin for spacing
+    margin: 15px 0; 
   }
 
   .home-page .flat-button {
     font-size: 11px;
     padding: 6px 14px;
-    width: 120px; // Auto width
-    margin-top: 40px; // Added bottom margin for spacing
+    width: 120px; 
+    margin-top: 40px; 
   }
 
   .btn-container {
