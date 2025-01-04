@@ -6,12 +6,12 @@
       "description": "React Native, Firebase",
       "url": "https://github.com/vik1234-del/PAU-food-project"
     },
-    {
-      "cover": "https://i.ibb.co/4MT2NVv/Screenshot-2025-01-04-at-16-05-27-React-App.png",
-      "title": "Recreate.ai",
-      "description": "Still in development",
-      "url": "https://recreate-ai.onrender.com/"
-    },
+    // {
+    //   "cover": "https://i.ibb.co/4MT2NVv/Screenshot-2025-01-04-at-16-05-27-React-App.png",
+    //   "title": "Recreate.ai",
+    //   "description": "Still in development",
+    //   "url": "https://recreate-ai.onrender.com/"
+    // },
     {
       "cover": "https://i.ibb.co/Jygj0Cm/image-2024-11-24-100012600.png",
       "title": "Byte Information Systems (Web)",
